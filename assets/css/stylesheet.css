@@ -56,7 +56,9 @@ p {
 
 .navStyle {
     height: 400px;
-    background-image: url("https://images.unsplash.com/photo-1616862486227-b34e18537e68?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80") ;
+    background: url(assets\images\heading.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     
     
     color:black;
@@ -124,10 +126,7 @@ img {
 
 .row {
     margin-bottom: 2em;
-
 }
-
-
 
 #profilepic {
     margin: 0px;
