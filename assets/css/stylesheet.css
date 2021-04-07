@@ -1,0 +1,159 @@
+* {
+    color: white;
+}
+
+main {
+    background-color: #f2d6bd;
+background-image: url("https://www.transparenttextures.com/patterns/inflicted.png");
+    /* background-color: #f2d0ba;
+    background-image: url("https://www.transparenttextures.com/patterns/navy.png"); */
+   
+
+}
+
+a {
+    color: white;
+}
+
+.navHead {
+    color: white;
+    margin-right: 0px;
+    font-family: font-family: 'Kaushan Script', cursive;
+    
+}
+
+.menu {
+    color: white;
+    text-align: right;
+}
+
+.navStyle {
+    height: 400px;
+    background-color: #f2d0ba;
+    background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
+    color: white;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+
+.bodyContent {
+    margin-left: 20%
+    margin-right: 20%;
+    background-color: white;
+    
+}
+
+#redRow {
+    height: 6px;
+    background-color: #6b6754;
+background-image: url("https://www.transparenttextures.com/patterns/iron-grip.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin-bottom: 0px;
+}
+
+#greenRow {
+    background-color: #2c3038;
+background-image: url("https://www.transparenttextures.com/patterns/inflicted.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 7px;
+
+}
+
+#blueRow {
+    background-color: #355261;
+background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+    height:5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#grayRow {
+    background-color: #808c96;
+background-image: url("https://www.transparenttextures.com/patterns/iron-grip.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    height:12px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.fillerRow {
+    background-color: #f2d6bd;
+background-image: url("https://www.transparenttextures.com/patterns/inflicted.png");
+    height: 100px;
+}
+
+img {
+    width: 95%;
+}
+
+.bodyContent {
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f5eedf;
+background-image: url("https://www.transparenttextures.com/patterns/dark-dotted-2.png");
+}
+
+.subheadings {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 2em;
+    
+}
+
+.row {
+    margin-bottom: 2em;
+    
+}
+
+
+
+.footerSubHead {
+    display: flex;
+    flex-direction: row;
+    
+    padding: 10px;
+    margin: 5%;
+    border-right: thick solid gray;
+    width: 15%;
+    font-family: 'Antic slab', serif;
+    color: gray;
+}
+
+#contactme {
+    width: 100%
+    display: flex;
+    flex-direction: row;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;   
+}
+
+.contactinfo div {
+    font-family: 'Antic Slab', serif;
+    font-size: 2em;
+    color: gray;
+    text-decoration: underline;
+}
+
+.contactinfo a {
+    font-family: 'Antic Slab', serif;
+    font-size: 2em;
+    color: gray;
+    text-decoration: underline;
+}
+
+/* background-color: #072b3a;
+opacity: 0.8;
+background-image: linear-gradient(-45deg, #072b3a, #072b3a 50%, #06242a 50%, #06242a);
+background-size: 20px 20px; */
