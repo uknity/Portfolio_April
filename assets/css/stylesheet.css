@@ -1,11 +1,7 @@
-
-
 main {
-    background-color: #ffffff;
+background-color: #ffffff;
 background-image: url("https://www.transparenttextures.com/patterns/rough-cloth-light.png");
-padding-top: 5%;
-
-
+padding-top: 1%;
 }
 
 a {
@@ -17,8 +13,12 @@ a::hover {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 2.5em;
+    font-family: 'Lora', serif;
 }
+
+
+
 .navHeadClass {
     margin-right: 0px;
 }
@@ -27,7 +27,7 @@ p {
     
     margin-right: 0px;
     font-family: 'Kiwi Maru', serif;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: medium;
     justify-content: flex-start;
     margin-bottom: 0px;
@@ -38,6 +38,8 @@ p {
     width: 100%;
     margin-bottom: 0px;
     color: black;
+    padding-left: 30px;
+    padding-right: 15px;
 }
 
 .mainSubHead {
@@ -50,20 +52,18 @@ p {
 .menu {
     color: black;
     text-align: right;
-    font-size: 3em;
+    font-size: 4em;
     padding-left: 30%;
 }
 
 .navStyle {
-    height: 400px;
+    height: 600px;
     background: url("../images/heading.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
-    
     color:black;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
     float: top;
     margin-bottom: 0px;
     padding: 0.5rem 3rem;
@@ -92,9 +92,9 @@ background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.
     margin-top: 5%;
 }
 #projectContainer {
+    display: flex;
     margin-top: 5%;
-    width: auto;
-    margin-left: 20%;
+    margin-left: 14%;
     margin-right: 20%;
     background-color: #fafafa;
 background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
@@ -102,10 +102,22 @@ background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.
     padding: 40px;
 }
 
-
+#projectContainerLast {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-right: 20%;
+    background-color: #fafafa;
+background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+    border: 30px solid #fceae8;
+    padding: 40px;
+    margin-botton: 30px;
+}
 
 .me {
     margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 #aboutMe {
     justify-content: center;
@@ -116,11 +128,11 @@ img {
 }
 
 .subheadings {
-    font-size: 2.5em;
+    font-size: 4em;
     text-align: center;
     margin-bottom: 2em;
     color: black;
-    font-family:'Raleway', sans-serif; 
+    font-family: 'Lora', serif;
     justify-content: center;
 }
 
@@ -154,21 +166,29 @@ img {
     margin-left: 10%;
 }
 
+.moreprojectex {
+    flex-direction: row;
+    wrap: no-wrap;
+}
+
 .footerSubHead {
-    margin-top: 5%;
-    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     border-right: thick solid gray;
-    font-family: 'Antic slab', serif;
+    font-size: 2em;
     color: gray;
-    font-size: 1.3em;
+    
     height: 200px;
 }
 
 #contactMe {
     color: gray;
-    font-size: 1.3em;
+    font-size: 2.5em;
     flex-direction: row;
     align-items: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 .contactinfo {
@@ -177,31 +197,27 @@ img {
     justify-content: space-around;
     width: 80%;
     align-items: center;
-    color: #355261;
+    color: gray;;
 }
 
 .contactinfo div {
     font-family: 'Antic Slab', serif;
     font-size: 2em;
     text-decoration: underline;
-    color: #355261;
+    color: gray;;
 }
 
 .contactinfo a {
     font-family: 'Antic Slab', serif;
     font-size: 2em;
     text-decoration: underline;
-    color: #355261;
+    color: gray;;
 }
 
 #github {
-    color: #355261; 
+    color: gray;; 
 }
 
 #linkedIn {
-    color: #355261;
+    color: gray;;
 }
-/* background-color: #072b3a;
-opacity: 0.8;
-background-image: linear-gradient(-45deg, #072b3a, #072b3a 50%, #06242a 50%, #06242a);
-background-size: 20px 20px; */
