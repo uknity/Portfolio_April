@@ -2,13 +2,14 @@
 
 main {
     background-color: #ffffff;
-background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
+background-image: url("https://www.transparenttextures.com/patterns/rough-cloth-light.png");
+padding-top: 5%;
 
 
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 a::hover {
@@ -36,6 +37,7 @@ p {
 #headerRow {
     width: 100%;
     margin-bottom: 0px;
+    color: black;
 }
 
 .mainSubHead {
@@ -46,7 +48,7 @@ p {
 }
 
 .menu {
-    color: white;
+    color: black;
     text-align: right;
     font-size: 3em;
     padding-left: 30%;
@@ -68,6 +70,7 @@ p {
 
 #navLinks {
     width: 50%;
+    color: black;
 }
 
 .bodyContent {
@@ -75,8 +78,9 @@ p {
     width: auto;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: #f5eedf;
-    background-image: url("https://www.transparenttextures.com/patterns/dark-dotted-2.png");
+    background-color: #fafafa;
+background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+
     border: 30px solid #fceae8;
     padding-top: 5%;
 
@@ -90,8 +94,8 @@ p {
     width: auto;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: #f5eedf;
-    background-image: url("https://www.transparenttextures.com/patterns/dark-dotted-2.png");
+    background-color: #fafafa;
+background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
     border: 30px solid #fceae8;
     padding: 40px;
 }
@@ -153,7 +157,7 @@ img {
 
 .footerSubHead {
     margin-top: 5%;
-    padding: 10px;
+    padding: 45px;
     border-right: thick solid gray;
     font-family: 'Antic slab', serif;
     color: gray;
