@@ -47,32 +47,36 @@
 
 
     <main>
-        <div class="row" id="redRow"></div>
-        <div class="row" id="greenRow"></div>
-        <div class="row" id="blueRow"></div>
-        <div class="row" id="grayRow"></div>
-
+        
         <div class="container-fluid bodyContent">
 
-            <div class="row fillerRow"></div>
 
-            <div class="row subheadings" id="aboutMe">About Me</div>
-            <div class="row me">
-                <div class="col-12 col-md-4 profilepic">
+
+            <container class="container" id="#contTop">
+                <div class="row subheadings" id="aboutMe">About Me</div>
+                <div class="row me">
+                <div class="col-12 col-md-4" id="profilepic">
                     <img class="personalphoto" src="assets\images\Linkedin Picture.jpg"
                         alt="Elizabeth Emerson head shot">
                 </div>
                 <!-- description -->
-                <div class="text col-12 col-md-8">
-                    <p>Passionate problem-solver seeking to add efficiency, functionality, and beauty to the world through web engineering.</p>
+                <div class="col-12 col-md-8" id="text">
+                    <p>Passionate problem-solver seeking to add efficiency, functionality, and beauty to the world
+                        through web engineering.</p>
 
-                    <p>As a former corporate attorney and elementary educator, I bring a sense of organization, communication, and collaboration to the world of tech, and enthusiasm, quality, and profitability to my employers. I am a self-starter who knows when to ask questions.  I look forward to contributing to your workforce with my dedication and diligence.</p>
-                    
+                    <p>As a former corporate attorney and elementary educator, I bring a sense of organization,
+                        communication, and collaboration to the world of tech, and enthusiasm, quality, and
+                        profitability to my employers. I am a self-starter who knows when to ask questions. I look
+                        forward to contributing to your workforce with my dedication and diligence.</p>
+
                     <p>Let's build great things together.</p>
                 </div>
             </div>
+        </div>
+        </container>
 
-            <div class="row fillerRow"></div>
+
+        <div class="container" id="projectContainer">
             <div class="row subheadings" id="projects">Projects</div>
             <div class="row projects">
                 <!-- primary project -->
@@ -81,8 +85,8 @@
                         <img src="assets/images/PokemonPage.png" alt="Pokemon Trade Site" id="pokemon"></a>
                     <div class="project-heading">PokeTrade.io</div>
             </div>
-
-            <div class="row fillerRow"></div>
+        </div>
+        <div class="container" id="projectContainer">
             <div class="row moreprojectex">
                 <!-- additional project row 1 -->
 
@@ -101,8 +105,9 @@
                     <div class="project-heading">Code Quiz</div>
                 </section>
             </div>
+        </div>
 
-            <div class="row fillerRow"></div>
+        <div class="container" id="projectContainer">
             <div class="row moreprojectexrow">
                 <!-- Password Generator -->
                 <section class="project-example col-12 col-md-6">
@@ -123,7 +128,6 @@
                 </section>
 
             </div>
-            <div class="row fillerRow"></div>
         </div>
 
 
@@ -136,7 +140,7 @@
     <footer>
         <!-- footer subheading -->
         <nav class="navbar row" id="contactMe">
-            <div class="footerSubHead col-12 col-md-2">Contact Me</div>
+            <div class="footerSubHead col-12 col-md-3">Contact Me</div>
 
             <!-- footer contact info section -->
 

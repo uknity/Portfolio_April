@@ -1,10 +1,9 @@
 
 
 main {
-    background-color: #f2d6bd;
-    background-image: url("https://www.transparenttextures.com/patterns/inflicted.png");
-    /* background-color: #f2d0ba;
-    background-image: url("https://www.transparenttextures.com/patterns/navy.png"); */
+    background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
+
 
 }
 
@@ -55,13 +54,15 @@ p {
 
 .navStyle {
     height: 400px;
-    background-color: #f2d0ba;
-    background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
-    color: white;
+    background-image: url("https://images.unsplash.com/photo-1616862486227-b34e18537e68?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80") ;
+    
+    
+    color:black;
     justify-content: flex-start;
     align-items: flex-start;
     float: top;
     margin-bottom: 0px;
+    padding: 0.5rem 3rem;
 }
 
 
@@ -70,76 +71,49 @@ p {
 }
 
 .bodyContent {
-    margin-left: 20% margin-right: 20%;
-    background-color: white;
-
-}
-
-#redRow {
-    height: 6px;
-    background-color: #6b6754;
-    background-image: url("https://www.transparenttextures.com/patterns/iron-grip.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    margin-bottom: 0px;
-}
-
-#greenRow {
-    background-color: #2c3038;
-    background-image: url("https://www.transparenttextures.com/patterns/inflicted.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    margin-bottom: 0px;
-    margin-top: 0px;
-    height: 7px;
-
-}
-
-#blueRow {
-    background-color: #355261;
-    background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
-    height: 5px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-#grayRow {
-    background-color: #808c96;
-    background-image: url("https://www.transparenttextures.com/patterns/iron-grip.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    height: 12px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-.fillerRow {
-    background-color: #f2d6bd;
-    background-image: url("https://www.transparenttextures.com/patterns/inflicted.png");
-    height: 100px;
-    margin-bottom: 0px;
-}
-
-#aboutMe {
-    justify-content: center;
-    border-radius: 5px;
-}
-img {
-    width: 95%;
-    border: medium solid #7a919e;
-    border-radius: 5px;
-}
-
-.bodyContent {
+    margin-top: 0%;
     width: auto;
     margin-left: 20%;
     margin-right: 20%;
     background-color: #f5eedf;
     background-image: url("https://www.transparenttextures.com/patterns/dark-dotted-2.png");
+    border: 30px solid #fceae8;
+    padding-top: 5%;
+
+}
+
+#contTop {
+    margin-top: 5%;
+}
+#projectContainer {
+    margin-top: 5%;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f5eedf;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-dotted-2.png");
+    border: 30px solid #fceae8;
+    padding: 40px;
+}
+
+
+
+.me {
+    margin-bottom: 20px;
+}
+#aboutMe {
+    justify-content: center;
+}
+img {
+    width: 95%;
+    border: medium solid black;
 }
 
 .subheadings {
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 2em;
-    color: #355261;
+    color: black;
     font-family:'Raleway', sans-serif; 
     justify-content: center;
 }
@@ -149,6 +123,18 @@ img {
 
 }
 
+
+
+#profilepic {
+    margin: 0px;
+}
+
+#text {
+    margin: 0px;
+}
+#projects {
+    margin-top: 2%;
+}
 #primaryProject {
     display: flex;
     padding: 0px;
@@ -158,6 +144,7 @@ img {
 .project-heading {
     text-align: center;
     color: #355261;
+    font-size: 1.8em;
 }
 #pokemon {
     width: 75%;
@@ -165,21 +152,20 @@ img {
 }
 
 .footerSubHead {
-    display: flex;
-    flex-direction: row;
-
+    margin-top: 5%;
     padding: 10px;
-    margin: 5%;
     border-right: thick solid gray;
-    width: 15%;
     font-family: 'Antic slab', serif;
     color: gray;
+    font-size: 1.3em;
+    height: 200px;
 }
 
-#contactme {
-    width: 100% display: flex;
+#contactMe {
+    color: gray;
+    font-size: 1.3em;
     flex-direction: row;
-    color: #355261;
+    align-items: center;
 }
 
 .contactinfo {
