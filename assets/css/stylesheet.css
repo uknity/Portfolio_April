@@ -1,6 +1,4 @@
-* {
-    color: white;
-}
+
 
 main {
     background-color: #f2d6bd;
@@ -49,6 +47,7 @@ a::hover {
     color: white;
     text-align: right;
     font-size: 3em;
+    padding-left: 30%;
 }
 
 .navStyle {
@@ -63,7 +62,9 @@ a::hover {
 }
 
 
-
+#navLinks {
+    width: 50%;
+}
 
 .bodyContent {
     margin-left: 20% margin-right: 20%;
@@ -110,8 +111,14 @@ a::hover {
     background-color: #f2d6bd;
     background-image: url("https://www.transparenttextures.com/patterns/inflicted.png");
     height: 100px;
+    margin-bottom: 0px;
 }
 
+#aboutMe {
+    justify-content: center;
+    border: medium solid 355261;
+    border-radius: 5px;
+}
 img {
     width: 95%;
 }
@@ -128,6 +135,9 @@ img {
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 2em;
+    color: #355261;
+    font-family:'Raleway', sans-serif; 
+    text-align: center;
 
 }
 
@@ -154,6 +164,7 @@ img {
 #contactme {
     width: 100% display: flex;
     flex-direction: row;
+    color: #355261;
 }
 
 .contactinfo {
@@ -162,22 +173,30 @@ img {
     justify-content: space-around;
     width: 80%;
     align-items: center;
+    color: #355261;
 }
 
 .contactinfo div {
     font-family: 'Antic Slab', serif;
     font-size: 2em;
-    color: gray;
     text-decoration: underline;
+    color: #355261;
 }
 
 .contactinfo a {
     font-family: 'Antic Slab', serif;
     font-size: 2em;
-    color: gray;
     text-decoration: underline;
+    color: #355261;
 }
 
+#github {
+    color: #355261; 
+}
+
+#linkedIn {
+    color: #355261;
+}
 /* background-color: #072b3a;
 opacity: 0.8;
 background-image: linear-gradient(-45deg, #072b3a, #072b3a 50%, #06242a 50%, #06242a);
