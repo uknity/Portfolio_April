@@ -16,6 +16,9 @@ a::hover {
     color: darkslategray;
 }
 
+p {
+    font-size: 1.5em;
+}
 .navHeadClass {
     margin-right: 0px;
 }
@@ -116,11 +119,12 @@ a::hover {
 
 #aboutMe {
     justify-content: center;
-    border: medium solid 355261;
     border-radius: 5px;
 }
 img {
     width: 95%;
+    border: medium solid #7a919e;
+    border-radius: 5px;
 }
 
 .bodyContent {
@@ -137,17 +141,28 @@ img {
     margin-bottom: 2em;
     color: #355261;
     font-family:'Raleway', sans-serif; 
-    text-align: center;
-
+    justify-content: center;
 }
 
 .row {
     margin-bottom: 2em;
 
-
 }
 
-
+#primaryProject {
+    display: flex;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+}
+.project-heading {
+    text-align: center;
+    color: #355261;
+}
+#pokemon {
+    width: 75%;
+    margin-left: 10%;
+}
 
 .footerSubHead {
     display: flex;

@@ -4,7 +4,7 @@
 
 ## Description
 
-This is the professional portfolio for Elizabeth Emerson.
+This site presents Elizabeth Emerson's professional portfolio. It includes navigation links to an "About Me" section, "Work" section, and a "Contact Me" section. In addition, you can link to her resume in the navigation links.
 
 Github URL: https://github.com/uknity/Portfolio_April
 
