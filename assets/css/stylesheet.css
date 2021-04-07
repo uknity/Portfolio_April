@@ -24,7 +24,7 @@ p {
 }
 
 #navHead {
-    background-color: #595b61 color: white;
+    
     margin-right: 0px;
     font-family: 'Kiwi Maru', serif;
     font-size: 3em;
@@ -56,7 +56,7 @@ p {
 
 .navStyle {
     height: 400px;
-    background: url(assets\images\heading.jpg);
+    background: url("../images/heading.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
