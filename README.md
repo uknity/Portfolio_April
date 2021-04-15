@@ -7,12 +7,12 @@
   
   ![image](https://user-images.githubusercontent.com/77338531/113923470-9257c600-97b6-11eb-9cfa-45f9563bb179.png)  
 ## Table of Contents
-    1. [Description](#description)
-    2. [Installation](#installation)
-    3. [Usage](#usage)
-    4. [Test](#test)
-    5. [Questions](#questions)
-    6. [License](#license)
+    - [Description](#description)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Test](#test)
+    - [Questions](#questions)
+    - [License](#license)
 
 ## Description
 

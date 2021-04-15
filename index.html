@@ -20,117 +20,106 @@
 </head>
 
 <body>
+    <header class="container-fluid h-100">
+        <div class="row h-100 d-inline-block" id="navStyle"></div>
+    </header>
 
+    <heading class="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-end" id="nameRow">
+        <div class="navbar-brand display-1">Elizabeth Emerson</div>
+    </heading>
 
-    <nav class="navbar navStyle">
-        <div class="row"></div>
-        <div class="row" id="headerRow">
-            <div class="navHeadClass col-12  col-md-6">
-                <div class="row" id="navHead">Elizabeth Emerson</div>
-                <div class="mainSubHead row">Full-Stack Developer...and loving it</div>
-            </div>
-            <ul class="navbar-nav col-12  menu col-md-6">
-                <li class="nav-item dropdown" id="#navLinks">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">&#9776;</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#aboutMe">About Me</a>
-                        <a class="dropdown-item" href="#projects">Projects</a>
-                        <a class="dropdown-item" href="#contactMe">Contact Me</a>
-                        <a class="dropdown-item" href="assets/images/Resume Emerson 2021.png">Resume</a>
-                    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex" id="subtitleLinkRow">
+
+        <div class="navbar navbar-expand-lg bg-light" id="subTitle">Grow, build, learn, repeat</div>
+        <div class="collapse navbar-collapse flex-shrink-1 ml-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0" id="linkRow">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#aboutMe">About Me  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactMe">Contact Me    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="" download>Resume    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="assets\pdf\Resume4-21.pdf" download>Resume(PDF)   </a>
                 </li>
             </ul>
+
         </div>
     </nav>
-    
 
     <main>
-        
 
-        <div class="container-fluid bodyContent">
+        <!-- About Me Section -->
+        <container class="container-fluid">
+            <div class="row contentRow">
+                <div class="col-md-10" id="bodyContent">
+                    <div class="row subheadings" id="aboutMe">About Me</div>
+                    <div class="row me">
+                        <div class="col-12 col-md-6" id="photoCol">
+                            <img src="assets\images\Linkedin Picture.jpg" alt="Elizabeth Emerson head shot"
+                                id="personalPhoto">
+                        </div>
 
-
-
-            <container class="container" id="#contTop">
-                <div class="row subheadings" id="aboutMe">About Me</div>
-                <div class="row me">
-                    <div class="col-12 col-md-4" id="profilepic">
-                        <img class="personalphoto" src="assets\images\Linkedin Picture.jpg"
-                            alt="Elizabeth Emerson head shot">
-                    </div>
-                    <!-- description -->
-                    <div class="col-12 col-md-8" id="text">
-                        <p>Passionate problem-solver seeking to add efficiency, functionality, and beauty to the world
-                            through web engineering.</p>
-                        <br>
-                        <p>As a former corporate attorney and elementary educator, I bring a sense of organization,
-                            communication, and collaboration to the world of tech, and enthusiasm, quality, and
-                            profitability to my employers. I am a self-starter who knows when to ask questions. I look
-                            forward to contributing to your workforce with my dedication and diligence.</p>
-                        <br>
-                        <p>Let's build great things together.</p>
+                        <div class="col-12 col-md-6 h4" id="text">
+                            <p>Passionate problem-solver seeking to add efficiency, functionality, and beauty to the
+                                world through web engineering.</p>
+                            <br>
+                            <p>As a former corporate attorney and elementary educator, I bring a sense of organization,
+                                communication, and collaboration to the world of tech, and enthusiasm, quality, and
+                                profitability to my employers. I am a self-starter who knows when to ask questions. I
+                                look forward to contributing to your workforce with my dedication and diligence.</p>
+                            <br>
+                            <p>Let's build great things together.</p>
+                        </div>
                     </div>
                 </div>
-        </div>
         </container>
 
+        <!-- primary project -->
+        <container class="container-fluid">
+            <div class="row contentRow">
+                <div class="col-md-10" id="bodyContent">
+                    <div class="subheadings text-center" id="#projects">Projects</div>
 
-        <div class="container col-md-9" id="projectContainer">
-            <div class="row subheadings" id="projects">Projects</div>
-            <div class="row projects">
-                <!-- primary project -->
-                <section class="primaryProject">
                     <a href="https://vharris113.github.io/poketrade/">
-                        <img src="assets/images/PokemonPage.png" alt="Pokemon Trade Site" id="pokemon"></a>
-                    <div class="project-heading">PokeTrade.io</div>
+                        <img class="img-fluid" alt="Responsive image" src="assets/images/PokemonPage.png"
+                            alt="Pokemon Trade Site" id="pokemon"></a>
+                    <div class="project-heading pb-3 pt-3"><a
+                            href="https://github.com/uknity/poketrade">PokeTrade.io</a></div>
+
+                </div>
             </div>
-        </div>
-        <div class="container col-md-9" id="projectContainer">
-            <div class="row moreprojectex">
-                <!-- additional project row 1 -->
+        </container>
 
-                <!-- Weather Dashboard -->
-                <section class="column col-12 col-md-6 project-example">
-                    <a href="https://uknity.github.io/Weather_Dashboard/">
-                        <img src="assets/images/WeatherDashboard.png" alt="Weather Dashboard" class="projecteximg">
-                    </a>
-                    <div class="project-heading">Weather Dashboard</div>
-                </section>
+        <!-- additional projects -->
+        <!-- Weather Dashboard -->
+        <div class="row d-flex justify-content-center my-3">
+            <div class="col-md-10 projectRow">
+                <div class="row d-flex justify-content-around flex-nowrap">
+                    <div class="col-12 col-md-5 subheadings text-center"><a
+                            href="https://uknity.github.io/Weather_Dashboard/">Weather Dashboard</a>
+                        <a href="https://github.com/uknity/Weather_Dashboard"><img class="img-fluid pt-4 pb-4"
+                                alt="Responsive image" src="assets/images/WeatherDashboard.png" alt="Weather Dashboard">
+                        </a>
+                    </div>
 
-                <!-- Code Quiz -->
-                <section class="project-example column col-12 col-md-6">
-                    <a href="https://uknity.github.io/Code_Quiz/">
-                        <img src="assets/images/Code Quiz.png" alt="Code Quiz" class="projecteximg"></a>
-                    <div class="project-heading">Code Quiz</div>
-                </section>
-            </div>
-        </div>
+                    <!-- Code Quiz -->
+                    <div class="col-12 col-md-5 subheadings text-center"><a
+                            href="https://uknity.github.io/Code_Quiz/">Code Quiz</a>
+                        <a href="https://github.com/uknity/Code_Quiz"><img class="img-fluid pt-4 pb-4"
+                                alt="Responsive image" src="assets/images/Code Quiz.png" alt="Code Quiz"></a>
+                    </div>
 
-        <div class="container col-md-9" id="projectContainerLast">
-            <div class="row moreprojectexrow">
-                <!-- Password Generator -->
-                <section class="project-example col-12 col-md-6">
-                    <a href="https://uknity.github.io/Password_Generator2/">
-                        <img src="assets/images/PasswordGenerator.png" alt="Link to Random Password Generator"
-                            class="projecteximg">
-                    </a>
-                    <div class="project-heading">Random Password Generator</div>
-                </section>
-
-                <!-- Stacey Abrams Tribute Site -->
-                <section class="project-example col-12 col-md-6">
-                    <a href="https://uknity.github.io/stacey_abrams/">
-                        <img src="assets/images/Stacey Abrams.png" alt="Stacey Abrams Tribute Project Page"
-                            class="projecteximg">
-                    </a>
-                    <div class="project-heading">Stacey Abrams Tribute Site</div>
-                </section>
+                </div>
 
             </div>
         </div>
-
-
         </container>
 
     </main>
@@ -139,19 +128,17 @@
     <!-- Footer - contact info -->
     <footer>
         <!-- footer subheading -->
-        <nav class="navbar row" id="contactMe">
-            <div class="footerSubHead col-12 col-md-3">Contact Me</div>
+        <nav class="navbar  footerSubHead d-flex justify-content-around" id="contactMe">
+            <div class="">Contact Me</div>
 
             <!-- footer contact info section -->
 
-            <div class="col-6 col-md-2">404-210-1716</div>
-            <div class="col-6 col-md-2">uknity@gmail.com</div>
-            <div class="col-6 col-md-2"><a href="https://github.com/uknity" id="github"
-                    alt="uknity Github Link">Github</a></div>
-            <div class="col-6 col-md-2"><a href="https://www.linkedin.com/in/elizabethemersonrgba/"
-                    id="linkedIn">LinkedIn</a></div>
+            <div>404-210-1716</div>
+            <div>uknity@gmail.com</div>
+            <div><a href="https://github.com/uknity" target="_blank" id="github" alt="uknity Github Link">Github</a></div>
+            <div><a href="https://www.linkedin.com/in/elizabethemersonrgba/" target="_blank" id="linkedIn">LinkedIn</a></div>
 
-            </div>
+            
         </nav>
 
     </footer>
